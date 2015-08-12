@@ -1,0 +1,20 @@
+// Navigation full screen with overlay
+.nav-full-center {
+  text-align: center;
+  width: 100%;
+
+  li {
+    font-size: 2em;
+
+    a {
+      color: $white;
+
+      &:hover,
+      &:focus {
+        background-color: transparent;
+        color: $sun;
+        outline: none;
+      }
+    }
+  }
+}

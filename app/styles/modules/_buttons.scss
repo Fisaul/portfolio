@@ -1,0 +1,23 @@
+.btn {
+  &:active:focus,
+  &:focus {
+    outline: none;
+  }
+}
+
+
+// Nav-Menu's  button
+.btn-toggle {
+  background: $white;
+  box-shadow: 0 1px 1px 0 rgba($black, .2);
+  padding: 1.3rem 1.6rem;
+  transition: transform .2s ease;
+
+  &:hover {
+    border: 1px solid darken($sun, 10%);
+  }
+
+  &.js-is-on {
+    transform: rotate(90deg);
+  }
+}

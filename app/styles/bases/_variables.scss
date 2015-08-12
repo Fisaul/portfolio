@@ -1,0 +1,36 @@
+// Color plate
+$black: #333;
+$dark-blue: #162427;
+$heart: #e6432a;
+$pink: #db7198;
+$sun: #f0cb46;
+$white: #fff;
+$smooth-grey: #eee;
+$sea: #4acaa8;
+
+
+// Devices size
+$md-size: 'min-width: 768px';
+
+
+// Header title section
+$title-bg-color: $sun;
+
+
+// About bg color
+$about-bg-color: $smooth-grey;
+
+// Skill-bar
+
+$html-css: (htmlcss, 85%, $sea);
+$sass: (sass, 75%, $pink);
+$js: (javascript, 70%, $pink);
+$jq: (jquery, 75%, $pink);
+$angularjs: (angularjs, 65%, $heart);
+$ps: (ps, 80%, $sea);
+$illus: (illus, 85%, $sea);
+$ae: (ae, 60%, $heart);
+$maya: (maya, 70%, $pink);
+
+// Footer
+$footer-bg-color: $dark-blue;

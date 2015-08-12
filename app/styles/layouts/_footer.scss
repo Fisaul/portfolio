@@ -1,0 +1,10 @@
+.credit {
+  background-color: $footer-bg-color;
+  color: $white;
+  height: 60px;
+
+  small {
+    letter-spacing: 2.5px;
+    line-height: 5;
+  }
+}

@@ -1,0 +1,17 @@
+// initialize overlay
+.overlay {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.overlay-menu {
+  background-color: rgba($black, .95);
+  bottom: -100%;
+  transition: bottom .5s ease;
+
+  &.js-is-open {
+    bottom: 0;
+  }
+}

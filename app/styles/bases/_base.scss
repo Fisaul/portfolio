@@ -1,0 +1,19 @@
+html,
+body {
+  // height: 100%;     // 100% height cause problem with WOWjs
+  max-width: 100%;
+  overflow-X: hidden;  // Content is clipped, with no scrollbars x
+  position: relative;
+}
+
+
+// remove all h-text margin
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}

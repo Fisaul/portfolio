@@ -1,0 +1,50 @@
+// .skill-lists {
+//   width: 100%;
+// }
+
+.skill-bar {
+  background-color: darken($smooth-grey, 5%);
+  display: block;
+  font-size: .8em;
+  margin-bottom: 2rem;
+  overflow-x: hidden;
+  padding-left: 0;
+  padding-right: 0;
+
+  &#{-title} {
+    background-color: $dark-blue;
+    border-radius: 5px 0 0 5px;
+    color: $white;
+    display: block;
+    height: 44px;
+    left: 0;
+    line-height: 4;
+  }
+
+  &#{-score} {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+
+  &#{-percent} {
+    display: block;
+    height: 44px;
+  }
+
+  @each $name, $score, $color in $html-css,
+                                 $sass,
+                                 $js,
+                                 $jq,
+                                 $angularjs,
+                                 $ps,
+                                 $illus,
+                                 $ae,
+                                 $maya {
+    & .#{$name} {
+      background-color: $sun;
+      background-image: linear-gradient(to right, $color 0%, lighten($color, 15%) 100%);
+      width: $score;
+    }
+  }
+}

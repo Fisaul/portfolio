@@ -1,0 +1,74 @@
+.bd-btm {
+  border-bottom: 1px solid rgba($black, .2);
+}
+
+.bd-md-w {
+  border: 5px solid $white;
+  box-shadow: 0 0 1px 1px rgba($black, .2);
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.fixed-top-r {
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  z-index: 9999;
+}
+
+.heart {
+  color: $heart;
+}
+
+// Hidden overflow-x elem
+.hidden-x {
+  overflow-x: hidden;
+}
+
+.mg-btm-sm {
+  margin-bottom: 5rem;
+}
+
+// Remove padding
+.no-pd {
+  padding: 0;
+}
+
+// Remove any deafual style ul and li.
+.reset-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+// Space between section
+.sec {
+  padding-bottom: 12rem;
+  padding-top: 12rem;
+}
+
+// Verticle align center
+// in vh unit
+.v-center {
+  left: 50%;
+  position: absolute;
+  top: 50vh;                        // use vh it's up to parent height unit
+  transform: translate(-50%, -50%);
+}
+
+.wrap {
+  height: 100%;
+  position: relative;
+  transform: scale(1);
+  transition: transform .5s ease;
+  width: 100%;
+
+  // simulate push elemet back
+  &.js-push-back {
+    transform: scale(.95);
+    transition: transform .5s ease;
+  }
+}
+
+
